@@ -10,4 +10,4 @@ Open `index.html` and replace:
 - Project descriptions
 
 ## Publish for free
-Upload the folder to a GitHub repository and enable GitHub Pages in the repository's Settings → Pages.
+Upload the folder to a GitHub repository and enable GitHub Pages in the repository's Settings → Pages
