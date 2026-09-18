@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Soni | Portfolio</title>
+<meta name="description" content="Soni's personal portfolio — creative work, AI, content creation and learning journey.">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:#faf8f5;color:#24211f;line-height:1.6}
+nav{position:sticky;top:0;z-index:10;background:rgba(250,248,245,.94);backdrop-filter:blur(10px);border-bottom:1px solid #e9e1d9;padding:16px 7%;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:22px;font-weight:800}
+nav a{color:#24211f;text-decoration:none;margin-left:22px;font-size:14px}
+.hero{min-height:82vh;display:flex;align-items:center;padding:70px 7%;background:linear-gradient(135deg,#faf8f5,#f0e8df)}
+.hero-inner{max-width:850px}
+.tag{display:inline-block;padding:8px 14px;border-radius:30px;background:#e8d8ca;font-size:13px;margin-bottom:20px}
+h1{font-size:clamp(44px,8vw,78px);line-height:1.02;margin-bottom:20px}
+h1 span{font-weight:400}
+.hero p{max-width:650px;font-size:19px;color:#625b56;margin-bottom:30px}
+.btn{display:inline-block;background:#24211f;color:white;text-decoration:none;padding:13px 22px;border-radius:30px;margin-right:10px}
+.btn.light{background:transparent;color:#24211f;border:1px solid #bdb2a9}
+section{padding:80px 7%}
+.container{max-width:1050px;margin:auto}
+h2{font-size:38px;margin-bottom:14px}
+.lead{color:#6b625b;max-width:700px;margin-bottom:35px}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:45px}
+.card{background:white;border:1px solid #e9e1d9;border-radius:20px;padding:28px}
+.skills{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+.skill{padding:9px 14px;background:#f0e8df;border-radius:20px;font-size:14px}
+.projects{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.project{min-height:220px;background:white;border:1px solid #e9e1d9;border-radius:20px;padding:25px;display:flex;flex-direction:column;justify-content:flex-end}
+.project .number{font-size:13px;color:#8a7a6d;margin-bottom:auto}
+.project h3{font-size:23px;margin-bottom:8px}
+.project p{color:#6b625b;font-size:14px}
+.contact{text-align:center;background:#eee4da}
+.contact p{max-width:600px;margin:0 auto 25px;color:#625b56}
+footer{text-align:center;padding:25px;color:#776e68;font-size:13px}
+@media(max-width:750px){
+ nav{padding:14px 5%} nav a{margin-left:10px;font-size:12px}
+ .hero,section{padding-left:5%;padding-right:5%}
+ .about,.projects{grid-template-columns:1fr}
+ h2{font-size:31px}
+}
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo">Soni.</div>
+  <div>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#work">Work</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div class="tag">Creative • Curious • Always Learning</div>
+    <h1>Hi, I'm <span>Soni.</span></h1>
+    <p>I’m building my skills in AI, content creation, digital design and social media while exploring creative ways to turn ideas into meaningful work.</p>
+    <a class="btn" href="#work">View my work</a>
+    <a class="btn light" href="#contact">Let's connect</a>
+  </div>
+</header>
+
+<section id="about">
+<div class="container">
+  <h2>About me</h2>
+  <p class="lead">A little introduction and the direction I'm heading in.</p>
+  <div class="about">
+    <div class="card">
+      <h3>My journey</h3>
+      <p>I have a background in pharmacy and a strong interest in creative and technology-driven work. I'm currently developing practical skills in AI, content creation, design and social media.</p>
+      <br>
+      <p>I enjoy learning by creating real projects and continuously improving along the way.</p>
+    </div>
+    <div class="card" id="skills">
+      <h3>Skills I'm building</h3>
+      <div class="skills">
+        <span class="skill">AI Tools</span>
+        <span class="skill">Content Creation</span>
+        <span class="skill">Social Media</span>
+        <span class="skill">Digital Design</span>
+        <span class="skill">Communication</span>
+        <span class="skill">Teaching</span>
+        <span class="skill">Creative Thinking</span>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="work">
+<div class="container">
+  <h2>My work</h2>
+  <p class="lead">A space for projects, experiments and things I'm proud of creating.</p>
+  <div class="projects">
+    <div class="project"><div class="number">01</div><h3>AI Projects</h3><p>Experiments and practical projects using AI tools.</p></div>
+    <div class="project"><div class="number">02</div><h3>Content Creation</h3><p>Short-form video, storytelling and social-media content.</p></div>
+    <div class="project"><div class="number">03</div><h3>Design</h3><p>Creative visuals, concepts and digital design experiments.</p></div>
+  </div>
+</div>
+</section>
+
+<section class="contact" id="contact">
+<div class="container">
+  <h2>Let's connect</h2>
+  <p>Interested in my work or want to collaborate? Replace the email below with your preferred contact details.</p>
+  <a class="btn" href="mailto:YOUR-EMAIL@example.com">Email me</a>
+</div>
+</section>
+
+<footer>© 2026 Soni. Built with simple HTML & CSS.</footer>
+</body>
+</html>
